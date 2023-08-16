@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+   >
+    <ImageView
+        android:id="@+id/captain_america"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/captain_america"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/nameOfAvenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Tony Stark"
+        android:layout_toRightOf="@id/captain_america"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="captainamerica@123gmail.com"
+        android:layout_toRightOf="@id/captain_america"
+        android:layout_below="@id/nameOfAvenger"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/mobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="+91 9182031938"
+        android:layout_toRightOf="@id/captain_america"
+        android:layout_below="@id/emailId"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        >
+    </TextView>
+
+
+
+
+
+</RelativeLayout>

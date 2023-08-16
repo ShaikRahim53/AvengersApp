@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Adipurush Movie Rater</string>
+    <string name="new_app_name">Avengers</string>
+    <string name="android_app_development_with_internshala">Android App Development with Internshala</string>
+    <string name="android_app_development">Android app development</string>
+    <string name="english">English</string>
+    <string name="mobile_number">Enter the theatre name you watched</string>
+    <string name="password">Enter your ticket price</string>
+    <string name="login">Rate Here</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="register_here">Register Here</string>
+    <string name="avengers_password">Enter your password</string>
+    <string name="avengers_mobile_number">Enter your mobile number</string>
+    <string name="avengers_Login">Log in</string>
+    <string name="preferences_file_name">Avenger Preferences</string>
+</resources>
